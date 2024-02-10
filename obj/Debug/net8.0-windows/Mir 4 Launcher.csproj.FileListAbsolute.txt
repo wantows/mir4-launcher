@@ -1,0 +1,17 @@
+G:\Mir4\Launcher\Mir 4 Launcher\bin\Debug\net8.0-windows\Mir 4 Launcher.exe
+G:\Mir4\Launcher\Mir 4 Launcher\bin\Debug\net8.0-windows\Mir 4 Launcher.deps.json
+G:\Mir4\Launcher\Mir 4 Launcher\bin\Debug\net8.0-windows\Mir 4 Launcher.runtimeconfig.json
+G:\Mir4\Launcher\Mir 4 Launcher\bin\Debug\net8.0-windows\Mir 4 Launcher.dll
+G:\Mir4\Launcher\Mir 4 Launcher\bin\Debug\net8.0-windows\Mir 4 Launcher.pdb
+G:\Mir4\Launcher\Mir 4 Launcher\obj\Debug\net8.0-windows\Mir_4_Launcher.Properties.Resources.resources
+G:\Mir4\Launcher\Mir 4 Launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.csproj.GenerateResource.cache
+G:\Mir4\Launcher\Mir 4 Launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.GeneratedMSBuildEditorConfig.editorconfig
+G:\Mir4\Launcher\Mir 4 Launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.AssemblyInfoInputs.cache
+G:\Mir4\Launcher\Mir 4 Launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.AssemblyInfo.cs
+G:\Mir4\Launcher\Mir 4 Launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.csproj.CoreCompileInputs.cache
+G:\Mir4\Launcher\Mir 4 Launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.dll
+G:\Mir4\Launcher\Mir 4 Launcher\obj\Debug\net8.0-windows\refint\Mir 4 Launcher.dll
+G:\Mir4\Launcher\Mir 4 Launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.pdb
+G:\Mir4\Launcher\Mir 4 Launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.genruntimeconfig.cache
+G:\Mir4\Launcher\Mir 4 Launcher\obj\Debug\net8.0-windows\ref\Mir 4 Launcher.dll
+G:\Mir4\Launcher\Mir 4 Launcher\obj\Debug\net8.0-windows\Mir_4_Launcher.Launcher.resources
