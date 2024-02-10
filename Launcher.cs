@@ -1,4 +1,5 @@
-using System.Diagnostics;
+﻿using System.Diagnostics;
+using System.Globalization;
 
 namespace Mir_4_Launcher
 {
@@ -66,6 +67,21 @@ namespace Mir_4_Launcher
 
         private void LaunchButton_Click(object sender, EventArgs e)
         {
+            // Check if the checkbox is checked
+            if (LauncherBox.Checked)
+            {
+                // Launch the application without closing the launcher
+                LaunchApplication();
+            }
+            else
+            {
+                // Launch the application and close the launcher
+                LaunchApplication();
+                this.Close();
+            }
+        }
+        private void LaunchApplication()
+        {
             string currentDirectory = Environment.CurrentDirectory;
             string mirMobileFolderPath = Path.Combine(currentDirectory, "MirMobile");
             string batFilePath = Path.Combine(mirMobileFolderPath, "MirMobile_DirectX.bat");
@@ -79,12 +95,10 @@ namespace Mir_4_Launcher
                 };
 
                 Process.Start(psi);
-
-                this.Close();
             }
             else
             {
-                MessageBox.Show("MirMobile_DirectX missing from MirMobile directory."); //removed other checks for the batch file, later add one at runtime -Jev
+                MessageBox.Show("MirMobile_DirectX missing from MirMobile directory.");
             }
         }
 
@@ -136,12 +150,75 @@ namespace Mir_4_Launcher
             {
                 string batchFileContents = File.ReadAllText(batchFilePath);
 
-                    // Replace "-windowed" or "-fullscreen" with the new mode version
-                    batchFileContents = batchFileContents.Replace("-windowed", "-" + modeVersion).Replace("-fullscreen", "-" + modeVersion);
+                // Replace "-windowed" or "-fullscreen" with the new mode version
+                batchFileContents = batchFileContents.Replace("-windowed", "-" + modeVersion).Replace("-fullscreen", "-" + modeVersion);
 
-                    // Write the updated content back to the batch file
-                    File.WriteAllText(batchFilePath, batchFileContents);
-                }
+                // Write the updated content back to the batch file
+                File.WriteAllText(batchFilePath, batchFileContents);
             }
         }
+
+        private void ENButton_Click(object sender, EventArgs e)
+        {
+            // Set the current culture back to the default
+            Thread.CurrentThread.CurrentUICulture = CultureInfo.DefaultThreadCurrentUICulture ?? CultureInfo.InvariantCulture;
+
+            // Update form's Text property (assuming it's in the default language)
+            this.Text = "Legend Of Mir 4 Launcher - LOMCN";
+
+            // Update BorderlessButton's Text property (assuming it's in the default language)
+            BorderlessButton.Text = "Windowed";
+
+            // Update FullscreenButton's Text property (assuming it's in the default language)
+            FullscreenButton.Text = "Fullscreen";
+
+            // Update LaunchButton's Text property (assuming it's in the default language)
+            LaunchButton.Text = "LAUNCH";
+        }
+
+        private void KRButton_Click(object sender, EventArgs e)
+        {
+            // Set the current culture to Korean
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo("ko-KR");
+
+            // Update form's Text property
+            this.Text = "미르의 전설 4 런처 - LOMCN";
+
+            // Update BorderlessButton's Text property
+            BorderlessButton.Text = "창가";
+
+            // Update FullscreenButton's Text property
+            FullscreenButton.Text = "전체 화면";
+
+            // Update LaunchButton's Text property
+            LaunchButton.Text = "시작하다";
+        }
+
+        private void CNButton_Click(object sender, EventArgs e)
+        {
+            // Set the current culture to Chinese
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo("zh-CN");
+
+            // Update form's Text property
+            this.Text = "热血传奇 4 启动器 - LOMCN";
+
+            // Update BorderlessButton's Text property
+            BorderlessButton.Text = "开窗";
+
+            // Update FullscreenButton's Text property
+            FullscreenButton.Text = "全屏";
+
+            // Update LaunchButton's Text property
+            LaunchButton.Text = "发射";
+        }
+
+        private void LOMCNRedirect_Click(object sender, EventArgs e)
+        {
+            // URL of the website you want to open
+            string url = "https://LOMCN.net";
+
+            // Open the default web browser with the specified URL
+            Process.Start(new ProcessStartInfo(url) { UseShellExecute = true });
+        }
     }
+}

@@ -118,6 +118,362 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LaunchButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>450, 376</value>
+  </data>
+  <data name="LaunchButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 51</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LaunchButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LaunchButton.Text" xml:space="preserve">
+    <value>LAUNCH</value>
+  </data>
+  <data name="&gt;&gt;LaunchButton.Name" xml:space="preserve">
+    <value>LaunchButton</value>
+  </data>
+  <data name="&gt;&gt;LaunchButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LaunchButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LaunchButton.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="DirextXLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DirextXLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt, style=Bold</value>
+  </data>
+  <data name="DirextXLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 357</value>
+  </data>
+  <data name="DirextXLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 30</value>
+  </data>
+  <data name="DirextXLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="DirextXLabel.Text" xml:space="preserve">
+    <value>Direct X:</value>
+  </data>
+  <data name="&gt;&gt;DirextXLabel.Name" xml:space="preserve">
+    <value>DirextXLabel</value>
+  </data>
+  <data name="&gt;&gt;DirextXLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DirextXLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DirextXLabel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="DX11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 357</value>
+  </data>
+  <data name="DX11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="DX11.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="DX11.Text" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;DX11.Name" xml:space="preserve">
+    <value>DX11</value>
+  </data>
+  <data name="&gt;&gt;DX11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DX11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DX11.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="DX12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 357</value>
+  </data>
+  <data name="DX12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="DX12.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="DX12.Text" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;DX12.Name" xml:space="preserve">
+    <value>DX12</value>
+  </data>
+  <data name="&gt;&gt;DX12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DX12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DX12.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="ModeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ModeLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt, style=Bold</value>
+  </data>
+  <data name="ModeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 397</value>
+  </data>
+  <data name="ModeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 30</value>
+  </data>
+  <data name="ModeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ModeLabel.Text" xml:space="preserve">
+    <value>Mode:</value>
+  </data>
+  <data name="&gt;&gt;ModeLabel.Name" xml:space="preserve">
+    <value>ModeLabel</value>
+  </data>
+  <data name="&gt;&gt;ModeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ModeLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ModeLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="FullscreenButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 401</value>
+  </data>
+  <data name="FullscreenButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 30</value>
+  </data>
+  <data name="FullscreenButton.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="FullscreenButton.Text" xml:space="preserve">
+    <value>Fullscreen</value>
+  </data>
+  <data name="&gt;&gt;FullscreenButton.Name" xml:space="preserve">
+    <value>FullscreenButton</value>
+  </data>
+  <data name="&gt;&gt;FullscreenButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FullscreenButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;FullscreenButton.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="BorderlessButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 401</value>
+  </data>
+  <data name="BorderlessButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 30</value>
+  </data>
+  <data name="BorderlessButton.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="BorderlessButton.Text" xml:space="preserve">
+    <value>Windowed</value>
+  </data>
+  <data name="&gt;&gt;BorderlessButton.Name" xml:space="preserve">
+    <value>BorderlessButton</value>
+  </data>
+  <data name="&gt;&gt;BorderlessButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BorderlessButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BorderlessButton.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="KRButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KRButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1010, 410</value>
+  </data>
+  <data name="KRButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="KRButton.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="KRButton.Text" xml:space="preserve">
+    <value>KR</value>
+  </data>
+  <data name="&gt;&gt;KRButton.Name" xml:space="preserve">
+    <value>KRButton</value>
+  </data>
+  <data name="&gt;&gt;KRButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;KRButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;KRButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ENButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ENButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>939, 410</value>
+  </data>
+  <data name="ENButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="ENButton.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="ENButton.Text" xml:space="preserve">
+    <value>EN</value>
+  </data>
+  <data name="&gt;&gt;ENButton.Name" xml:space="preserve">
+    <value>ENButton</value>
+  </data>
+  <data name="&gt;&gt;ENButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ENButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ENButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="CNButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CNButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>972, 410</value>
+  </data>
+  <data name="CNButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 30</value>
+  </data>
+  <data name="CNButton.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="CNButton.Text" xml:space="preserve">
+    <value>CN</value>
+  </data>
+  <data name="&gt;&gt;CNButton.Name" xml:space="preserve">
+    <value>CNButton</value>
+  </data>
+  <data name="&gt;&gt;CNButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CNButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CNButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LauncherCheckbox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LauncherCheckbox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt, style=Bold</value>
+  </data>
+  <data name="LauncherCheckbox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LauncherCheckbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 324</value>
+  </data>
+  <data name="LauncherCheckbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 30</value>
+  </data>
+  <data name="LauncherCheckbox.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="LauncherCheckbox.Text" xml:space="preserve">
+    <value>Keep Launcher Open:</value>
+  </data>
+  <data name="&gt;&gt;LauncherCheckbox.Name" xml:space="preserve">
+    <value>LauncherCheckbox</value>
+  </data>
+  <data name="&gt;&gt;LauncherCheckbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LauncherCheckbox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LauncherCheckbox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LauncherBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LauncherBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LauncherBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 335</value>
+  </data>
+  <data name="LauncherBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="LauncherBox.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;LauncherBox.Name" xml:space="preserve">
+    <value>LauncherBox</value>
+  </data>
+  <data name="&gt;&gt;LauncherBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LauncherBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LauncherBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LOMCNRedirect.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="LOMCNRedirect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 12</value>
+  </data>
+  <data name="LOMCNRedirect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 70</value>
+  </data>
+  <data name="LOMCNRedirect.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;LOMCNRedirect.Name" xml:space="preserve">
+    <value>LOMCNRedirect</value>
+  </data>
+  <data name="&gt;&gt;LOMCNRedirect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LOMCNRedirect.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LOMCNRedirect.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1042, 441</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA
@@ -193,5 +549,17 @@
         AAeAAAAHgAAAB4AAAAeAAAAHgAAAB4AAAAeAAAAHgAAAB4AAAAeAAAAHgAAAB4AAAAfAAAAHwAAAB8AA
         AA/gAAAP+AAAP/+Af///gv///4f///////8=
 </value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Legend Of Mir 4 Launcher - LOMCN</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Launcher</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

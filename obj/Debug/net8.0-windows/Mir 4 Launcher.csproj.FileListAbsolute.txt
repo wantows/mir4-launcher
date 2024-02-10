@@ -15,3 +15,6 @@ G:\Mir4\Launcher\Mir 4 Launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.pdb
 G:\Mir4\Launcher\Mir 4 Launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.genruntimeconfig.cache
 G:\Mir4\Launcher\Mir 4 Launcher\obj\Debug\net8.0-windows\ref\Mir 4 Launcher.dll
 G:\Mir4\Launcher\Mir 4 Launcher\obj\Debug\net8.0-windows\Mir_4_Launcher.Launcher.resources
+G:\Mir4\Launcher\Mir 4 Launcher\bin\Debug\net8.0-windows\ko-KR\Mir 4 Launcher.resources.dll
+G:\Mir4\Launcher\Mir 4 Launcher\obj\Debug\net8.0-windows\Mir_4_Launcher.Launcher.ko-KR.resources
+G:\Mir4\Launcher\Mir 4 Launcher\obj\Debug\net8.0-windows\ko-KR\Mir 4 Launcher.resources.dll

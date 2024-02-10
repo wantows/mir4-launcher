@@ -9,6 +9,11 @@
       "Mir 4 Launcher/1.0.0": {
         "runtime": {
           "Mir 4 Launcher.dll": {}
+        },
+        "resources": {
+          "ko-KR/Mir 4 Launcher.resources.dll": {
+            "locale": "ko-KR"
+          }
         }
       }
     }

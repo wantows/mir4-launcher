@@ -36,90 +36,118 @@
             ModeLabel = new Label();
             FullscreenButton = new Button();
             BorderlessButton = new Button();
+            KRButton = new Button();
+            ENButton = new Button();
+            CNButton = new Button();
+            LauncherCheckbox = new Label();
+            LauncherBox = new CheckBox();
+            LOMCNRedirect = new Button();
             SuspendLayout();
             // 
             // LaunchButton
             // 
             LaunchButton.BackColor = SystemColors.Control;
-            LaunchButton.Location = new Point(450, 376);
+            resources.ApplyResources(LaunchButton, "LaunchButton");
             LaunchButton.Name = "LaunchButton";
-            LaunchButton.Size = new Size(161, 51);
-            LaunchButton.TabIndex = 0;
-            LaunchButton.Text = "LAUNCH";
             LaunchButton.UseVisualStyleBackColor = false;
             LaunchButton.Click += LaunchButton_Click;
             // 
             // DirextXLabel
             // 
-            DirextXLabel.AutoSize = true;
+            resources.ApplyResources(DirextXLabel, "DirextXLabel");
             DirextXLabel.BackColor = Color.Transparent;
-            DirextXLabel.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             DirextXLabel.ForeColor = Color.White;
-            DirextXLabel.Location = new Point(12, 357);
             DirextXLabel.Name = "DirextXLabel";
-            DirextXLabel.Size = new Size(97, 30);
-            DirextXLabel.TabIndex = 1;
-            DirextXLabel.Text = "Direct X:";
             // 
             // DX11
             // 
-            DX11.Location = new Point(115, 357);
+            resources.ApplyResources(DX11, "DX11");
             DX11.Name = "DX11";
-            DX11.Size = new Size(30, 30);
-            DX11.TabIndex = 2;
-            DX11.Text = "11";
             DX11.UseVisualStyleBackColor = true;
             DX11.Click += DX11_Click;
             // 
             // DX12
             // 
-            DX12.Location = new Point(151, 357);
+            resources.ApplyResources(DX12, "DX12");
             DX12.Name = "DX12";
-            DX12.Size = new Size(30, 30);
-            DX12.TabIndex = 3;
-            DX12.Text = "12";
             DX12.UseVisualStyleBackColor = true;
             DX12.Click += DX12_Click;
             // 
             // ModeLabel
             // 
-            ModeLabel.AutoSize = true;
+            resources.ApplyResources(ModeLabel, "ModeLabel");
             ModeLabel.BackColor = Color.Transparent;
-            ModeLabel.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             ModeLabel.ForeColor = Color.White;
-            ModeLabel.Location = new Point(12, 397);
             ModeLabel.Name = "ModeLabel";
-            ModeLabel.Size = new Size(76, 30);
-            ModeLabel.TabIndex = 4;
-            ModeLabel.Text = "Mode:";
             // 
             // FullscreenButton
             // 
-            FullscreenButton.Location = new Point(187, 401);
+            resources.ApplyResources(FullscreenButton, "FullscreenButton");
             FullscreenButton.Name = "FullscreenButton";
-            FullscreenButton.Size = new Size(87, 30);
-            FullscreenButton.TabIndex = 6;
-            FullscreenButton.Text = "Fullscreen";
             FullscreenButton.UseVisualStyleBackColor = true;
             FullscreenButton.Click += FullscreenButton_Click;
             // 
             // BorderlessButton
             // 
-            BorderlessButton.Location = new Point(94, 401);
+            resources.ApplyResources(BorderlessButton, "BorderlessButton");
             BorderlessButton.Name = "BorderlessButton";
-            BorderlessButton.Size = new Size(87, 30);
-            BorderlessButton.TabIndex = 5;
-            BorderlessButton.Text = "Windowed";
             BorderlessButton.UseVisualStyleBackColor = true;
             BorderlessButton.Click += BorderlessButton_Click;
             // 
+            // KRButton
+            // 
+            resources.ApplyResources(KRButton, "KRButton");
+            KRButton.Name = "KRButton";
+            KRButton.UseVisualStyleBackColor = true;
+            KRButton.Click += KRButton_Click;
+            // 
+            // ENButton
+            // 
+            resources.ApplyResources(ENButton, "ENButton");
+            ENButton.Name = "ENButton";
+            ENButton.UseVisualStyleBackColor = true;
+            ENButton.Click += ENButton_Click;
+            // 
+            // CNButton
+            // 
+            resources.ApplyResources(CNButton, "CNButton");
+            CNButton.Name = "CNButton";
+            CNButton.UseVisualStyleBackColor = true;
+            CNButton.Click += CNButton_Click;
+            // 
+            // LauncherCheckbox
+            // 
+            resources.ApplyResources(LauncherCheckbox, "LauncherCheckbox");
+            LauncherCheckbox.BackColor = Color.Transparent;
+            LauncherCheckbox.ForeColor = Color.White;
+            LauncherCheckbox.Name = "LauncherCheckbox";
+            // 
+            // LauncherBox
+            // 
+            resources.ApplyResources(LauncherBox, "LauncherBox");
+            LauncherBox.Name = "LauncherBox";
+            LauncherBox.UseVisualStyleBackColor = true;
+            // 
+            // LOMCNRedirect
+            // 
+            LOMCNRedirect.BackColor = Color.Transparent;
+            resources.ApplyResources(LOMCNRedirect, "LOMCNRedirect");
+            LOMCNRedirect.Name = "LOMCNRedirect";
+            LOMCNRedirect.UseVisualStyleBackColor = false;
+            LOMCNRedirect.Click += LOMCNRedirect_Click;
+            // 
             // Launcher
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
             BackgroundImage = Properties.Resources.Splash;
-            ClientSize = new Size(1042, 441);
+            Controls.Add(LOMCNRedirect);
+            Controls.Add(LauncherBox);
+            Controls.Add(LauncherCheckbox);
+            Controls.Add(CNButton);
+            Controls.Add(ENButton);
+            Controls.Add(KRButton);
             Controls.Add(FullscreenButton);
             Controls.Add(BorderlessButton);
             Controls.Add(ModeLabel);
@@ -127,12 +155,9 @@
             Controls.Add(DX11);
             Controls.Add(DirextXLabel);
             Controls.Add(LaunchButton);
-            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "Launcher";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "Legend Of Mir 4 Launcher - LOMCN";
             ResumeLayout(false);
             PerformLayout();
         }
@@ -146,5 +171,11 @@
         private Label ModeLabel;
         private Button FullscreenButton;
         private Button BorderlessButton;
+        private Button KRButton;
+        private Button ENButton;
+        private Button CNButton;
+        private Label LauncherCheckbox;
+        private CheckBox LauncherBox;
+        private Button LOMCNRedirect;
     }
 }
