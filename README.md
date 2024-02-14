@@ -5,3 +5,5 @@
 <p align="center">
   <img width="1040" height="440" src="https://mirfiles.com/resources/mir2/users/Jev/Mir%204/Splash.png">
 </p>
+
+![image](https://github.com/JevLOMCN/mir4-launcher/assets/68875342/3c1fe3b1-370a-41c9-a8b8-bbfdd05a1b0d)
