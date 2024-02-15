@@ -9,6 +9,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <ApplicationIcon>Mir4.ico</ApplicationIcon>
     <Copyright>WeGreed Entertainment Co LTD</Copyright>
+    <BaseOutputPath>bin\Client-Launcher</BaseOutputPath>
   </PropertyGroup>
 
   <ItemGroup>

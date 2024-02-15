@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Mir4\\Launcher\\Mir 4 Launcher\\Mir 4 Launcher.csproj",
+      "projectUniqueName": "G:\\Mir4\\Launcher\\Mir 4 Launcher - Copy\\Mir 4 Launcher.csproj",
       "projectName": "Mir 4 Launcher",
-      "projectPath": "G:\\Mir4\\Launcher\\Mir 4 Launcher\\Mir 4 Launcher.csproj",
+      "projectPath": "G:\\Mir4\\Launcher\\Mir 4 Launcher - Copy\\Mir 4 Launcher.csproj",
       "packagesPath": "C:\\Users\\johne\\.nuget\\packages\\",
-      "outputPath": "G:\\Mir4\\Launcher\\Mir 4 Launcher\\obj\\",
+      "outputPath": "G:\\Mir4\\Launcher\\Mir 4 Launcher - Copy\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\johne\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,7 +64,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

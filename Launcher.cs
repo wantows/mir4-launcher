@@ -1,5 +1,6 @@
 ﻿using System.Diagnostics;
 using System.Globalization;
+using System.Text.RegularExpressions;
 
 namespace Mir_4_Launcher
 {
@@ -9,6 +10,7 @@ namespace Mir_4_Launcher
         {
             InitializeComponent();
             Launcher_Load(null, EventArgs.Empty);
+            SetResolutionFromBatchFile();
         }
 
         private void Launcher_Load(object sender, EventArgs e)
@@ -211,14 +213,44 @@ namespace Mir_4_Launcher
             // Update LaunchButton's Text property
             LaunchButton.Text = "发射";
         }
-
-        private void LOMCNRedirect_Click(object sender, EventArgs e)
+        private void SetResolutionFromBatchFile()
         {
-            // URL of the website you want to open
-            string url = "https://LOMCN.net";
+            string currentDirectory = Environment.CurrentDirectory;
+            string batchFilePath = Path.Combine(currentDirectory, "MirMobile", "MirMobile_DirectX.bat");
 
-            // Open the default web browser with the specified URL
-            Process.Start(new ProcessStartInfo(url) { UseShellExecute = true });
+            if (File.Exists(batchFilePath))
+            {
+                string batchFileContents = File.ReadAllText(batchFilePath);
+
+                // Regular expression pattern to match -ResX and -ResY values
+                string patternX = @"-ResX=(\d+)";
+                string patternY = @"-ResY=(\d+)";
+
+                // Match -ResX value
+                Match matchX = Regex.Match(batchFileContents, patternX);
+                if (matchX.Success)
+                {
+                    XBox.Text = matchX.Groups[1].Value;
+                }
+
+                // Match -ResY value
+                Match matchY = Regex.Match(batchFileContents, patternY);
+                if (matchY.Success)
+                {
+                    YBox.Text = matchY.Groups[1].Value;
+                }
+            }
+            else
+            {
+                MessageBox.Show("Batch file not found.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void ConfigButton_Click(object sender, EventArgs e)
+        {
+            Config configForm = new Config();
+
+            configForm.Show();
         }
     }
 }

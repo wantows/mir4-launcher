@@ -41,7 +41,10 @@
             CNButton = new Button();
             LauncherCheckbox = new Label();
             LauncherBox = new CheckBox();
-            LOMCNRedirect = new Button();
+            ResolutionLabel = new Label();
+            XBox = new TextBox();
+            YBox = new TextBox();
+            ConfigButton = new Button();
             SuspendLayout();
             // 
             // LaunchButton
@@ -128,13 +131,35 @@
             LauncherBox.Name = "LauncherBox";
             LauncherBox.UseVisualStyleBackColor = true;
             // 
-            // LOMCNRedirect
+            // ResolutionLabel
             // 
-            LOMCNRedirect.BackColor = Color.Transparent;
-            resources.ApplyResources(LOMCNRedirect, "LOMCNRedirect");
-            LOMCNRedirect.Name = "LOMCNRedirect";
-            LOMCNRedirect.UseVisualStyleBackColor = false;
-            LOMCNRedirect.Click += LOMCNRedirect_Click;
+            resources.ApplyResources(ResolutionLabel, "ResolutionLabel");
+            ResolutionLabel.BackColor = Color.Transparent;
+            ResolutionLabel.ForeColor = Color.White;
+            ResolutionLabel.Name = "ResolutionLabel";
+            // 
+            // XBox
+            // 
+            resources.ApplyResources(XBox, "XBox");
+            XBox.Name = "XBox";
+            XBox.ReadOnly = true;
+            // 
+            // YBox
+            // 
+            resources.ApplyResources(YBox, "YBox");
+            YBox.Name = "YBox";
+            YBox.ReadOnly = true;
+            // 
+            // ConfigButton
+            // 
+            ConfigButton.BackColor = Color.Transparent;
+            resources.ApplyResources(ConfigButton, "ConfigButton");
+            ConfigButton.FlatAppearance.BorderSize = 0;
+            ConfigButton.ForeColor = Color.Transparent;
+            ConfigButton.Image = Properties.Resources.Config;
+            ConfigButton.Name = "ConfigButton";
+            ConfigButton.UseVisualStyleBackColor = false;
+            ConfigButton.Click += ConfigButton_Click;
             // 
             // Launcher
             // 
@@ -142,7 +167,10 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
             BackgroundImage = Properties.Resources.Splash;
-            Controls.Add(LOMCNRedirect);
+            Controls.Add(ConfigButton);
+            Controls.Add(YBox);
+            Controls.Add(XBox);
+            Controls.Add(ResolutionLabel);
             Controls.Add(LauncherBox);
             Controls.Add(LauncherCheckbox);
             Controls.Add(CNButton);
@@ -176,6 +204,9 @@
         private Button CNButton;
         private Label LauncherCheckbox;
         private CheckBox LauncherBox;
-        private Button LOMCNRedirect;
+        private Label ResolutionLabel;
+        private TextBox XBox;
+        private TextBox YBox;
+        private Button ConfigButton;
     }
 }
