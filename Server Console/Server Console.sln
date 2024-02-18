@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server Console", "Server Console.csproj", "{070E4361-524A-47D0-A31A-23A73419113F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mir 4 Launcher", "..\Client Launcher\Mir 4 Launcher.csproj", "{C7AFEC4C-92D8-4F61-A9F5-361BD9AA203D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{070E4361-524A-47D0-A31A-23A73419113F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{070E4361-524A-47D0-A31A-23A73419113F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{070E4361-524A-47D0-A31A-23A73419113F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{070E4361-524A-47D0-A31A-23A73419113F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7AFEC4C-92D8-4F61-A9F5-361BD9AA203D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7AFEC4C-92D8-4F61-A9F5-361BD9AA203D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7AFEC4C-92D8-4F61-A9F5-361BD9AA203D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7AFEC4C-92D8-4F61-A9F5-361BD9AA203D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00BD39B6-8735-4537-88DB-E1BE8838BB5F}
+	EndGlobalSection
+EndGlobal
