@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Mir 4 Launcher\CommunityForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Mir 4 Launcher\InfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Mir 4 Launcher\Mir 4 Launcher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Mir 4 Launcher\SettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Server Data\Game\GameData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Server Data\Gateway\GatewayData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Server Data\World\WorldData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Server Logs\Chatting\ChattingLogs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Server Logs\Game\GameLogs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Server Logs\Gateway\GatewayLogs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Server Logs\World\WorldLogs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Main Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Server Configs\Chatting\ChattingConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Server Configs\Game\GameConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Server Configs\Gateway\GatewayConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Server Configs\World\WorldConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
