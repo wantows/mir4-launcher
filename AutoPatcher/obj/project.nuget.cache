@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ieSS+vgR41/aC/MF2Bv3v9pfh0BswtvWbjEwJMxpjv2RtYeGaUN+1SssM7GbWbSZdHZmJxsjU8Dm897upb5pLw==",
+  "success": true,
+  "projectFilePath": "G:\\Mir2\\Crystal\\GitHub Uploader\\Suprcode Test Changes\\mir2\\AutoPatcherAdmin\\AutoPatcherAdmin.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\johne\\.nuget\\packages\\winscp\\6.1.2\\winscp.6.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

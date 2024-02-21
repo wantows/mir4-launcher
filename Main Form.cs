@@ -1,3 +1,4 @@
+using AutoPatcherAdmin;
 using Server_Console.Logs.Chatting;
 using Server_Console.Logs.Game;
 using Server_Console.Logs.Gateway;
@@ -10,6 +11,7 @@ using Server_Console.Server_Data;
 using Server_Console.Server_Data.Gateway;
 using Server_Console.Server_Data.World;
 using System.Diagnostics;
+using System.DirectoryServices.ActiveDirectory;
 
 namespace Server_Console
 {
@@ -224,5 +226,12 @@ namespace Server_Console
             worldDataForm.Show();
         }
         #endregion
+
+        private void AutoPatcherButton_Click(object sender, EventArgs e)
+        {
+            // Open the AMain.cs form on double-click
+            AMain aMainForm = new AMain();
+            aMainForm.Show();
+        }
     }
 }

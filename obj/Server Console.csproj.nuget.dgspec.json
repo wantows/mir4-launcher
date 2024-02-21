@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Mir4\\Mir 4 Launchers\\Server Console.csproj": {}
+    "G:\\Mir4\\Github Uploader\\mir4-launcher\\Server Console.csproj": {}
   },
   "projects": {
-    "G:\\Mir4\\Mir 4 Launchers\\Server Console.csproj": {
+    "G:\\Mir4\\Github Uploader\\mir4-launcher\\Server Console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Mir4\\Mir 4 Launchers\\Server Console.csproj",
+        "projectUniqueName": "G:\\Mir4\\Github Uploader\\mir4-launcher\\Server Console.csproj",
         "projectName": "Server Console",
-        "projectPath": "G:\\Mir4\\Mir 4 Launchers\\Server Console.csproj",
+        "projectPath": "G:\\Mir4\\Github Uploader\\mir4-launcher\\Server Console.csproj",
         "packagesPath": "C:\\Users\\johne\\.nuget\\packages\\",
-        "outputPath": "G:\\Mir4\\Mir 4 Launchers\\obj\\",
+        "outputPath": "G:\\Mir4\\Github Uploader\\mir4-launcher\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\johne\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "WinSCP": {
+              "target": "Package",
+              "version": "[6.3.0, )"
             }
           },
           "imports": [

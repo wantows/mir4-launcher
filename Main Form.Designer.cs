@@ -48,6 +48,7 @@
             GameDataButton = new Button();
             GatewayDataButton = new Button();
             WorldDataButton = new Button();
+            AutoPatcherButton = new Button();
             SuspendLayout();
             // 
             // ChattingServerButton
@@ -219,11 +220,22 @@
             WorldDataButton.UseVisualStyleBackColor = true;
             WorldDataButton.Click += WorldDataButton_Click;
             // 
+            // AutoPatcherButton
+            // 
+            AutoPatcherButton.Location = new Point(259, 269);
+            AutoPatcherButton.Name = "AutoPatcherButton";
+            AutoPatcherButton.Size = new Size(81, 23);
+            AutoPatcherButton.TabIndex = 17;
+            AutoPatcherButton.Text = "AutoPatcher";
+            AutoPatcherButton.UseVisualStyleBackColor = true;
+            AutoPatcherButton.Click += AutoPatcherButton_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(352, 324);
+            Controls.Add(AutoPatcherButton);
             Controls.Add(WorldDataButton);
             Controls.Add(GatewayDataButton);
             Controls.Add(GameDataButton);
@@ -270,5 +282,6 @@
         private Button GameDataButton;
         private Button GatewayDataButton;
         private Button WorldDataButton;
+        private Button AutoPatcherButton;
     }
 }

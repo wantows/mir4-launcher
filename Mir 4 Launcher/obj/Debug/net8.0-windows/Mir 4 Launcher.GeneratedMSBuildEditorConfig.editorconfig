@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Mir_4_Launcher
-build_property.ProjectDir = G:\Mir4\Mir 4 Launchers\Mir 4 Launcher\
+build_property.ProjectDir = G:\Mir4\Github Uploader\mir4-launcher\Mir 4 Launcher\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
