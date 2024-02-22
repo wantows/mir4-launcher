@@ -21,8 +21,4 @@
     <PackageReference Include="WinSCP" Version="6.3.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="AutoPatcher\" />
-  </ItemGroup>
-
 </Project>

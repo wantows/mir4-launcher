@@ -231,7 +231,6 @@
             AutoPatcherButton.TabIndex = 17;
             AutoPatcherButton.Text = "AutoPatcher";
             AutoPatcherButton.UseVisualStyleBackColor = true;
-            AutoPatcherButton.Click += AutoPatcherButton_Click;
             // 
             // APIConfigButton
             // 

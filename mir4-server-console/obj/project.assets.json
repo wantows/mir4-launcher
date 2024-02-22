@@ -92,11 +92,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Mir4\\mir4-server-console\\Server Console.csproj",
+      "projectUniqueName": "G:\\Mir4\\Github Uploader\\mir4-launcher\\mir4-server-console\\Server Console.csproj",
       "projectName": "Server Console",
-      "projectPath": "G:\\Mir4\\mir4-server-console\\Server Console.csproj",
+      "projectPath": "G:\\Mir4\\Github Uploader\\mir4-launcher\\mir4-server-console\\Server Console.csproj",
       "packagesPath": "C:\\Users\\johne\\.nuget\\packages\\",
-      "outputPath": "G:\\Mir4\\mir4-server-console\\obj\\",
+      "outputPath": "G:\\Mir4\\Github Uploader\\mir4-launcher\\mir4-server-console\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\johne\\AppData\\Roaming\\NuGet\\NuGet.Config",

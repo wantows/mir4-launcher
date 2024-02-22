@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Mir4\\mir4-client-launcher\\Mir 4 Launcher.csproj": {}
+    "G:\\Mir4\\Github Uploader\\mir4-launcher\\mir4-client-launcher\\Mir 4 Launcher.csproj": {}
   },
   "projects": {
-    "G:\\Mir4\\mir4-client-launcher\\Mir 4 Launcher.csproj": {
+    "G:\\Mir4\\Github Uploader\\mir4-launcher\\mir4-client-launcher\\Mir 4 Launcher.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Mir4\\mir4-client-launcher\\Mir 4 Launcher.csproj",
+        "projectUniqueName": "G:\\Mir4\\Github Uploader\\mir4-launcher\\mir4-client-launcher\\Mir 4 Launcher.csproj",
         "projectName": "Mir 4 Launcher",
-        "projectPath": "G:\\Mir4\\mir4-client-launcher\\Mir 4 Launcher.csproj",
+        "projectPath": "G:\\Mir4\\Github Uploader\\mir4-launcher\\mir4-client-launcher\\Mir 4 Launcher.csproj",
         "packagesPath": "C:\\Users\\johne\\.nuget\\packages\\",
-        "outputPath": "G:\\Mir4\\mir4-client-launcher\\obj\\",
+        "outputPath": "G:\\Mir4\\Github Uploader\\mir4-launcher\\mir4-client-launcher\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\johne\\AppData\\Roaming\\NuGet\\NuGet.Config",
