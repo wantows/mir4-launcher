@@ -1,6 +1,7 @@
 using System;
 using System.Diagnostics;
 using System.Drawing;
+using System.IO;
 using System.Windows.Forms;
 
 namespace Mir_4_Launcher
@@ -8,12 +9,10 @@ namespace Mir_4_Launcher
     public partial class Launcher : Form
     {
         private CommunityForm CommunityForm;
-
-        // Declare variables for custom dragging behavior
+        private System.Windows.Forms.Timer processCheckTimer;
         private bool isDragging = false;
         private Point lastCursor;
         private Point lastForm;
-
         private System.Windows.Forms.Timer slideshowTimer;
         private int currentImageIndex = 0;
         private Image[] slideshowImages = new Image[]
@@ -28,8 +27,15 @@ namespace Mir_4_Launcher
             InitializeComponent();
             InitializeSlideshowTimer();
             UpdateVersionLabel();
+            InitializeProcessCheckTimer();
         }
-
+        private void InitializeProcessCheckTimer()
+        {
+            processCheckTimer = new System.Windows.Forms.Timer();
+            processCheckTimer.Interval = 5000;
+            processCheckTimer.Tick += ProcessCheckTimer_Tick;
+            processCheckTimer.Start();
+        }
         private void InitializeSlideshowTimer()
         {
             slideshowTimer = new System.Windows.Forms.Timer();
@@ -220,6 +226,37 @@ namespace Mir_4_Launcher
             // Open the InfoForm when Info Image is clicked
             InfoForm InfoForm = new InfoForm();
             InfoForm.ShowDialog();
+        }
+
+        private void ProcessCheckTimer_Tick(object sender, EventArgs e)
+        {
+            if (IsProcessRunning("MirMobile-Win64-Shipping"))
+            {
+                GameStartButton1.Image = Properties.Resources.StartGreyed;
+                GameStartButton1.Enabled = false;
+            }
+            else
+            {
+                GameStartButton1.Image = Properties.Resources.Start;
+                GameStartButton1.Enabled = true;
+            }
+
+            if (IsProcessRunning("MirMobile-Win64-Shipping2"))
+            {
+                GameStartButton2.Image = Properties.Resources.Start2Greyed;
+                GameStartButton2.Enabled = false;
+            }
+            else
+            {
+                GameStartButton2.Image = Properties.Resources.Start2;
+                GameStartButton2.Enabled = true;
+            }
+        }
+
+        private bool IsProcessRunning(string processName)
+        {
+            Process[] processes = Process.GetProcessesByName(processName);
+            return processes.Length > 0;
         }
     }
 }

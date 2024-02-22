@@ -93,31 +93,37 @@ namespace Mir_4_Launcher
         private void UpdateDXValue(string dxValue)
         {
             string currentDirectory = Environment.CurrentDirectory;
-            string batchFilePath = Path.Combine(currentDirectory, "MirMobile", "MirMobile_DirectX.bat");
+            string[] batchFilePaths = {
+        Path.Combine(currentDirectory, "MirMobile", "MirMobile_DirectX.bat"),
+        Path.Combine(currentDirectory, "MirMobile", "MirMobile_DirectX2.bat")
+    };
 
-            if (File.Exists(batchFilePath))
+            foreach (string batchFilePath in batchFilePaths)
             {
-                string[] batchFileLines = File.ReadAllLines(batchFilePath);
-
-                for (int i = 0; i < batchFileLines.Length; i++)
+                if (File.Exists(batchFilePath))
                 {
-                    if (batchFileLines[i].Contains("-dx11") || batchFileLines[i].Contains("-dx12"))
+                    string[] batchFileLines = File.ReadAllLines(batchFilePath);
+
+                    for (int i = 0; i < batchFileLines.Length; i++)
                     {
-                        // Replace only the DirectX version in the line
-                        batchFileLines[i] = batchFileLines[i].Replace("-dx11", dxValue).Replace("-dx12", dxValue);
-                        break; // Assuming there's only one occurrence in a line
+                        if (batchFileLines[i].Contains("-dx11") || batchFileLines[i].Contains("-dx12"))
+                        {
+                            // Replace only the DirectX version in the line
+                            batchFileLines[i] = batchFileLines[i].Replace("-dx11", dxValue).Replace("-dx12", dxValue);
+                            break; // Assuming there's only one occurrence in a line
+                        }
                     }
+
+                    // Write the updated content back to the batch file
+                    File.WriteAllLines(batchFilePath, batchFileLines);
+
+                    // Update the images based on the new DirectX value
+                    UpdatePictureBoxBasedOnDXValue();
                 }
-
-                // Write the updated content back to the batch file
-                File.WriteAllLines(batchFilePath, batchFileLines);
-
-                // Update the images based on the new DirectX value
-                UpdatePictureBoxBasedOnDXValue();
-            }
-            else
-            {
-                MessageBox.Show("MirMobile_DirectX.bat not found.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                else
+                {
+                    MessageBox.Show($"{Path.GetFileName(batchFilePath)} not found.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
         }
 
@@ -151,30 +157,41 @@ namespace Mir_4_Launcher
 
         private void UpdateResolution(string resolution)
         {
-            string dxBatchFilePath = Path.Combine("MirMobile", "MirMobile_DirectX.bat");
+            string currentDirectory = Environment.CurrentDirectory;
+            string[] batchFilePaths = {
+        Path.Combine(currentDirectory, "MirMobile", "MirMobile_DirectX.bat"),
+        Path.Combine(currentDirectory, "MirMobile", "MirMobile_DirectX2.bat")
+    };
 
-            if (File.Exists(dxBatchFilePath))
+            foreach (string dxBatchFilePath in batchFilePaths)
             {
-                string[] batchFileContents = File.ReadAllLines(dxBatchFilePath);
-
-                for (int i = 0; i < batchFileContents.Length; i++)
+                if (File.Exists(dxBatchFilePath))
                 {
-                    if (batchFileContents[i].Contains("-Windowed") || batchFileContents[i].Contains("-Fullscreen"))
+                    string[] batchFileContents = File.ReadAllLines(dxBatchFilePath);
+
+                    for (int i = 0; i < batchFileContents.Length; i++)
                     {
-                        batchFileContents[i] = resolution switch
+                        if (batchFileContents[i].Contains("-Windowed") || batchFileContents[i].Contains("-Fullscreen"))
                         {
-                            "Windowed" => batchFileContents[i].Replace("-Fullscreen", "-Windowed"),
-                            "Fullscreen" => batchFileContents[i].Replace("-Windowed", "-Fullscreen"),
-                            _ => batchFileContents[i]
-                        };
-                        break; // Assuming there's only one occurrence in a line
+                            batchFileContents[i] = resolution switch
+                            {
+                                "Windowed" => batchFileContents[i].Replace("-Fullscreen", "-Windowed"),
+                                "Fullscreen" => batchFileContents[i].Replace("-Windowed", "-Fullscreen"),
+                                _ => batchFileContents[i]
+                            };
+                            break; // Assuming there's only one occurrence in a line
+                        }
                     }
+
+                    File.WriteAllLines(dxBatchFilePath, batchFileContents);
                 }
-
-                File.WriteAllLines(dxBatchFilePath, batchFileContents);
-
-                UpdatePictureBoxBasedOnResolution();
+                else
+                {
+                    MessageBox.Show($"{Path.GetFileName(dxBatchFilePath)} not found.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
+
+            UpdatePictureBoxBasedOnResolution();
         }
 
         private void FullscreenButton_Click(object sender, EventArgs e)

@@ -51,6 +51,7 @@
             SpeedLabel = new Label();
             TimeLabel = new Label();
             InfoImage = new PictureBox();
+            ProcessCheckTimer = new System.Windows.Forms.Timer(components);
             ((System.ComponentModel.ISupportInitialize)SlideshowImage).BeginInit();
             ((System.ComponentModel.ISupportInitialize)BoxImage).BeginInit();
             ((System.ComponentModel.ISupportInitialize)CommunityImage).BeginInit();
@@ -296,6 +297,10 @@
             InfoImage.TabStop = false;
             InfoImage.Click += InfoImage_Click;
             // 
+            // ProcessCheckTimer
+            // 
+            ProcessCheckTimer.Tick += ProcessCheckTimer_Tick;
+            // 
             // Launcher
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -374,5 +379,6 @@ After:
         private Label SpeedLabel;
         private Label TimeLabel;
         private PictureBox InfoImage;
+        private System.Windows.Forms.Timer ProcessCheckTimer;
     }
 }
