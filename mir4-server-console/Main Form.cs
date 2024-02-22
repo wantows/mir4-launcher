@@ -1,3 +1,4 @@
+//using AutoPatcherAdmin;
 using Server_Console.Logs.Chatting;
 using Server_Console.Logs.Game;
 using Server_Console.Logs.Gateway;
@@ -232,7 +233,7 @@ namespace Server_Console
         }
         #endregion
 
-        //private void AutoPatcherButton_Click(object sender, EventArgs e) //Jev Removed for now
+        //private void AutoPatcherButton_Click(object sender, EventArgs e) //Jev - Removed for now
         //{
         //    // Open the AMain.cs form on double-click
         //    AMain aMainForm = new AMain();
