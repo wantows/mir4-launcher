@@ -63,16 +63,6 @@ namespace Mir_4_Launcher.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _3f356b3ac584bd4f6d1c7722ee28a43a {
-            get {
-                object obj = ResourceManager.GetObject("3f356b3ac584bd4f6d1c7722ee28a43a", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Backdrop {
             get {
                 object obj = ResourceManager.GetObject("Backdrop", resourceCulture);
@@ -346,36 +336,6 @@ namespace Mir_4_Launcher.Properties {
         internal static System.Drawing.Bitmap SettingsClose {
             get {
                 object obj = ResourceManager.GetObject("SettingsClose", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Splash {
-            get {
-                object obj = ResourceManager.GetObject("Splash", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Splash2 {
-            get {
-                object obj = ResourceManager.GetObject("Splash2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Splash3 {
-            get {
-                object obj = ResourceManager.GetObject("Splash3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

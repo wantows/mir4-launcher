@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "tfBGUnWY56tBDjcQHpuxNCj9wlWZsTdoXBlHn+3LiXGAylHf6sFFSXVF5TuKG6bdh66/1hGko4a59jSWEvxNjQ==",
+  "success": true,
+  "projectFilePath": "G:\\Mir4\\Github Uploader\\mir4-launcher\\mir4-server-console\\Server Console.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\johne\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\johne\\.nuget\\packages\\winscp\\6.3.0\\winscp.6.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

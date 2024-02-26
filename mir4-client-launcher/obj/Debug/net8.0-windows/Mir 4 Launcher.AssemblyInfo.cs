@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright © 2024")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Mir 4 Launcher")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5af463754f58b28c923919cdee456a46df5ef9cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mir 4 Launcher")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mir 4 Launcher")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

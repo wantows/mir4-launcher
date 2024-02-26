@@ -53,10 +53,14 @@ namespace Mir_4_Launcher
                 MessageBox.Show("Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
-        private void LOMCNIconImage_Click(object sender, EventArgs e)
+        private void InfoCloseImage_Click(object sender, EventArgs e)
         {
-            string link = "https://www.lomcn.net/";
+            this.Close();
+        }
+
+        private void NyylLabel_Click(object sender, EventArgs e)
+        {
+            string link = "https://www.lomcn.net/forum/members/nyylxd.42262/";
 
             try
             {
@@ -72,9 +76,58 @@ namespace Mir_4_Launcher
             }
         }
 
-        private void InfoCloseImage_Click(object sender, EventArgs e)
+        private void Firev2Label_Click(object sender, EventArgs e)
         {
-            this.Close();
+            string link = "https://www.lomcn.net/forum/members/aboveyou.45200/";
+
+            try
+            {
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = link,
+                    UseShellExecute = true
+                });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void MentalLabel_Click(object sender, EventArgs e)
+        {
+            string link = "https://www.lomcn.net/forum/members/mental.3870/";
+
+            try
+            {
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = link,
+                    UseShellExecute = true
+                });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void GurgelLabel_Click(object sender, EventArgs e)
+        {
+            string link = "https://www.lomcn.net/forum/members/gurgell.45127/";
+
+            try
+            {
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = link,
+                    UseShellExecute = true
+                });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

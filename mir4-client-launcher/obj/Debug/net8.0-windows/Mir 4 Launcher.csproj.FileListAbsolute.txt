@@ -77,13 +77,21 @@ G:\Mir4\Github Uploader\mir4-launcher\mir4-client-launcher\obj\Debug\net8.0-wind
 G:\Mir4\Github Uploader\mir4-launcher\mir4-client-launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.pdb
 G:\Mir4\Github Uploader\mir4-launcher\mir4-client-launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.genruntimeconfig.cache
 G:\Mir4\Github Uploader\mir4-launcher\mir4-client-launcher\obj\Debug\net8.0-windows\ref\Mir 4 Launcher.dll
+G:\Mir4\mir4-client-launcher\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+G:\Mir4\mir4-client-launcher\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+G:\Mir4\mir4-client-launcher\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
 G:\Mir4\mir4-client-launcher\bin\Debug\net8.0-windows\Mir 4 Launcher.exe
 G:\Mir4\mir4-client-launcher\bin\Debug\net8.0-windows\Mir 4 Launcher.deps.json
 G:\Mir4\mir4-client-launcher\bin\Debug\net8.0-windows\Mir 4 Launcher.runtimeconfig.json
 G:\Mir4\mir4-client-launcher\bin\Debug\net8.0-windows\Mir 4 Launcher.dll
 G:\Mir4\mir4-client-launcher\bin\Debug\net8.0-windows\Mir 4 Launcher.pdb
+G:\Mir4\mir4-client-launcher\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+G:\Mir4\mir4-client-launcher\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+G:\Mir4\mir4-client-launcher\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+G:\Mir4\mir4-client-launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.csproj.AssemblyReference.cache
 G:\Mir4\mir4-client-launcher\obj\Debug\net8.0-windows\Mir_4_Launcher.CommunityForm.resources
 G:\Mir4\mir4-client-launcher\obj\Debug\net8.0-windows\Mir_4_Launcher.InfoForm.resources
+G:\Mir4\mir4-client-launcher\obj\Debug\net8.0-windows\Mir_4_Launcher.Launcher.resources
 G:\Mir4\mir4-client-launcher\obj\Debug\net8.0-windows\Mir_4_Launcher.Properties.Resources.resources
 G:\Mir4\mir4-client-launcher\obj\Debug\net8.0-windows\Mir_4_Launcher.SettingsForm.resources
 G:\Mir4\mir4-client-launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.csproj.GenerateResource.cache
@@ -91,9 +99,65 @@ G:\Mir4\mir4-client-launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.GeneratedMS
 G:\Mir4\mir4-client-launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.AssemblyInfoInputs.cache
 G:\Mir4\mir4-client-launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.AssemblyInfo.cs
 G:\Mir4\mir4-client-launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.csproj.CoreCompileInputs.cache
+G:\Mir4\mir4-client-launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.csproj.CopyComplete
 G:\Mir4\mir4-client-launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.dll
 G:\Mir4\mir4-client-launcher\obj\Debug\net8.0-windows\refint\Mir 4 Launcher.dll
 G:\Mir4\mir4-client-launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.pdb
 G:\Mir4\mir4-client-launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.genruntimeconfig.cache
 G:\Mir4\mir4-client-launcher\obj\Debug\net8.0-windows\ref\Mir 4 Launcher.dll
-G:\Mir4\mir4-client-launcher\obj\Debug\net8.0-windows\Mir_4_Launcher.Launcher.resources
+C:\Users\Phillip Gibbings\Desktop\mir4-client-launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.csproj.AssemblyReference.cache
+C:\Users\Phillip Gibbings\Desktop\mir4-client-launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.dll
+C:\Users\Phillip Gibbings\Desktop\mir4-client-launcher\obj\Debug\net8.0-windows\refint\Mir 4 Launcher.dll
+C:\Users\Phillip Gibbings\Desktop\mir4-client-launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.pdb
+C:\Users\Phillip Gibbings\Desktop\mir4-client-launcher\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\Phillip Gibbings\Desktop\mir4-client-launcher\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\Phillip Gibbings\Desktop\mir4-client-launcher\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\Phillip Gibbings\Desktop\mir4-client-launcher\bin\Debug\net8.0-windows\Mir 4 Launcher.exe
+C:\Users\Phillip Gibbings\Desktop\mir4-client-launcher\bin\Debug\net8.0-windows\Mir 4 Launcher.deps.json
+C:\Users\Phillip Gibbings\Desktop\mir4-client-launcher\bin\Debug\net8.0-windows\Mir 4 Launcher.runtimeconfig.json
+C:\Users\Phillip Gibbings\Desktop\mir4-client-launcher\bin\Debug\net8.0-windows\Mir 4 Launcher.dll
+C:\Users\Phillip Gibbings\Desktop\mir4-client-launcher\bin\Debug\net8.0-windows\Mir 4 Launcher.pdb
+C:\Users\Phillip Gibbings\Desktop\mir4-client-launcher\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\Phillip Gibbings\Desktop\mir4-client-launcher\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\Phillip Gibbings\Desktop\mir4-client-launcher\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\Phillip Gibbings\Desktop\mir4-client-launcher\obj\Debug\net8.0-windows\Mir_4_Launcher.CommunityForm.resources
+C:\Users\Phillip Gibbings\Desktop\mir4-client-launcher\obj\Debug\net8.0-windows\Mir_4_Launcher.InfoForm.resources
+C:\Users\Phillip Gibbings\Desktop\mir4-client-launcher\obj\Debug\net8.0-windows\Mir_4_Launcher.Launcher.resources
+C:\Users\Phillip Gibbings\Desktop\mir4-client-launcher\obj\Debug\net8.0-windows\Mir_4_Launcher.Properties.Resources.resources
+C:\Users\Phillip Gibbings\Desktop\mir4-client-launcher\obj\Debug\net8.0-windows\Mir_4_Launcher.SettingsForm.resources
+C:\Users\Phillip Gibbings\Desktop\mir4-client-launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.csproj.GenerateResource.cache
+C:\Users\Phillip Gibbings\Desktop\mir4-client-launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Phillip Gibbings\Desktop\mir4-client-launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.AssemblyInfoInputs.cache
+C:\Users\Phillip Gibbings\Desktop\mir4-client-launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.AssemblyInfo.cs
+C:\Users\Phillip Gibbings\Desktop\mir4-client-launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.csproj.CoreCompileInputs.cache
+C:\Users\Phillip Gibbings\Desktop\mir4-client-launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.csproj.CopyComplete
+C:\Users\Phillip Gibbings\Desktop\mir4-client-launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.genruntimeconfig.cache
+C:\Users\Phillip Gibbings\Desktop\mir4-client-launcher\obj\Debug\net8.0-windows\ref\Mir 4 Launcher.dll
+C:\Users\johne\Desktop\mir4-client-launcher\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\johne\Desktop\mir4-client-launcher\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\johne\Desktop\mir4-client-launcher\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\johne\Desktop\mir4-client-launcher\bin\Debug\net8.0-windows\Mir 4 Launcher.exe
+C:\Users\johne\Desktop\mir4-client-launcher\bin\Debug\net8.0-windows\Mir 4 Launcher.deps.json
+C:\Users\johne\Desktop\mir4-client-launcher\bin\Debug\net8.0-windows\Mir 4 Launcher.runtimeconfig.json
+C:\Users\johne\Desktop\mir4-client-launcher\bin\Debug\net8.0-windows\Mir 4 Launcher.dll
+C:\Users\johne\Desktop\mir4-client-launcher\bin\Debug\net8.0-windows\Mir 4 Launcher.pdb
+C:\Users\johne\Desktop\mir4-client-launcher\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\johne\Desktop\mir4-client-launcher\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\johne\Desktop\mir4-client-launcher\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\johne\Desktop\mir4-client-launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.csproj.AssemblyReference.cache
+C:\Users\johne\Desktop\mir4-client-launcher\obj\Debug\net8.0-windows\Mir_4_Launcher.CommunityForm.resources
+C:\Users\johne\Desktop\mir4-client-launcher\obj\Debug\net8.0-windows\Mir_4_Launcher.InfoForm.resources
+C:\Users\johne\Desktop\mir4-client-launcher\obj\Debug\net8.0-windows\Mir_4_Launcher.Launcher.resources
+C:\Users\johne\Desktop\mir4-client-launcher\obj\Debug\net8.0-windows\Mir_4_Launcher.Properties.Resources.resources
+C:\Users\johne\Desktop\mir4-client-launcher\obj\Debug\net8.0-windows\Mir_4_Launcher.SettingsForm.resources
+C:\Users\johne\Desktop\mir4-client-launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.csproj.GenerateResource.cache
+C:\Users\johne\Desktop\mir4-client-launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\johne\Desktop\mir4-client-launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.AssemblyInfoInputs.cache
+C:\Users\johne\Desktop\mir4-client-launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.AssemblyInfo.cs
+C:\Users\johne\Desktop\mir4-client-launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.csproj.CoreCompileInputs.cache
+C:\Users\johne\Desktop\mir4-client-launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.csproj.CopyComplete
+C:\Users\johne\Desktop\mir4-client-launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.dll
+C:\Users\johne\Desktop\mir4-client-launcher\obj\Debug\net8.0-windows\refint\Mir 4 Launcher.dll
+C:\Users\johne\Desktop\mir4-client-launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.pdb
+C:\Users\johne\Desktop\mir4-client-launcher\obj\Debug\net8.0-windows\Mir 4 Launcher.genruntimeconfig.cache
+C:\Users\johne\Desktop\mir4-client-launcher\obj\Debug\net8.0-windows\ref\Mir 4 Launcher.dll

@@ -7,7 +7,7 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
-    <ApplicationIcon>Mir 4.ico</ApplicationIcon>
+    <ApplicationIcon>MIR4_LOMCN_Logo.ico</ApplicationIcon>
     <PackageIcon>Mir 4.ico</PackageIcon>
     <PackageProjectUrl>www.lomcn.net</PackageProjectUrl>
     <Description>Mir 4 Launcher</Description>
@@ -15,14 +15,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="Mir 4.ico" />
+    <Content Include="MIR4_LOMCN_Logo.ico" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="C:\Users\johne\Desktop\Mir 4.ico">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.2277.86" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="8.0.0" />
   </ItemGroup>
 
   <ItemGroup>

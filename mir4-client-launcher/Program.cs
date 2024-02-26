@@ -1,3 +1,5 @@
+using System.Text;
+
 namespace Mir_4_Launcher
 {
     internal static class Program

@@ -40,7 +40,7 @@ namespace Server_Console
             CheckExecutableStatus("GameServer", GameServerButton);
             CheckExecutableStatus("GatewayServer", GatewayServerButton);
             CheckExecutableStatus("WorldServer", WorldServerButton);
-            CheckExecutableStatus("APIServer", APIServerButton);
+            CheckExecutableStatus("FrontServer", FrontServerButton);
         }
         private void CheckExecutableStatus(string serverName, Button button)
         {
@@ -92,7 +92,7 @@ namespace Server_Console
         Path.Combine(baseDirectory, "GameServer", "GameServer.exe"),
         Path.Combine(baseDirectory, "GatewayServer", "GatewayServer.exe"),
         Path.Combine(baseDirectory, "WorldServer", "WorldServer.exe"),
-        Path.Combine(baseDirectory, "APIServer", "APIServer.exe")
+        Path.Combine(baseDirectory, "FrontServer", "FrontServer.exe")
     };
 
             foreach (string exePath in exePaths)
@@ -128,9 +128,10 @@ namespace Server_Console
         {
             LaunchServer("WorldServer");
         }
-        private void APIServerButton_Click(object sender, EventArgs e)
+
+        private void FrontServerButton_Click(object sender, EventArgs e)
         {
-            LaunchServer("APIServer");
+            LaunchServer("FrontServer");
         }
         private void LaunchServer(string serverName)
         {

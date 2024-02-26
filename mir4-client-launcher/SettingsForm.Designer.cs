@@ -37,6 +37,13 @@
             ResolutionLabel = new Label();
             GraphicsLabel = new Label();
             CloseImage = new PictureBox();
+            AccountDetailsLabel = new Label();
+            ACC2Label = new Label();
+            ACC1Label = new Label();
+            ACID1 = new RichTextBox();
+            ACID2 = new RichTextBox();
+            ACPW2 = new RichTextBox();
+            ACPW1 = new RichTextBox();
             ((System.ComponentModel.ISupportInitialize)DX11Button).BeginInit();
             ((System.ComponentModel.ISupportInitialize)FullscreenButton).BeginInit();
             ((System.ComponentModel.ISupportInitialize)WindowedButton).BeginInit();
@@ -144,13 +151,88 @@
             CloseImage.TabStop = false;
             CloseImage.Click += CloseImage_Click;
             // 
+            // AccountDetailsLabel
+            // 
+            AccountDetailsLabel.AutoSize = true;
+            AccountDetailsLabel.BackColor = Color.Transparent;
+            AccountDetailsLabel.Font = new Font("Segoe UI", 18F, FontStyle.Bold);
+            AccountDetailsLabel.ForeColor = Color.White;
+            AccountDetailsLabel.Location = new Point(12, 273);
+            AccountDetailsLabel.Name = "AccountDetailsLabel";
+            AccountDetailsLabel.Size = new Size(194, 32);
+            AccountDetailsLabel.TabIndex = 12;
+            AccountDetailsLabel.Text = "Account Details";
+            // 
+            // ACC2Label
+            // 
+            ACC2Label.AutoSize = true;
+            ACC2Label.BackColor = Color.Transparent;
+            ACC2Label.Font = new Font("Segoe UI", 18F, FontStyle.Bold);
+            ACC2Label.ForeColor = Color.White;
+            ACC2Label.Location = new Point(26, 398);
+            ACC2Label.Name = "ACC2Label";
+            ACC2Label.Size = new Size(130, 32);
+            ACC2Label.TabIndex = 14;
+            ACC2Label.Text = "Account 2";
+            // 
+            // ACC1Label
+            // 
+            ACC1Label.AutoSize = true;
+            ACC1Label.BackColor = Color.Transparent;
+            ACC1Label.Font = new Font("Segoe UI", 18F, FontStyle.Bold);
+            ACC1Label.ForeColor = Color.White;
+            ACC1Label.Location = new Point(26, 326);
+            ACC1Label.Name = "ACC1Label";
+            ACC1Label.Size = new Size(130, 32);
+            ACC1Label.TabIndex = 13;
+            ACC1Label.Text = "Account 1";
+            // 
+            // ACID1
+            // 
+            ACID1.Location = new Point(185, 324);
+            ACID1.Name = "ACID1";
+            ACID1.Size = new Size(118, 38);
+            ACID1.TabIndex = 15;
+            ACID1.Text = "";
+            // 
+            // ACID2
+            // 
+            ACID2.Location = new Point(185, 392);
+            ACID2.Name = "ACID2";
+            ACID2.Size = new Size(118, 38);
+            ACID2.TabIndex = 16;
+            ACID2.Text = "";
+            // 
+            // ACPW2
+            // 
+            ACPW2.Location = new Point(365, 392);
+            ACPW2.Name = "ACPW2";
+            ACPW2.Size = new Size(118, 38);
+            ACPW2.TabIndex = 18;
+            ACPW2.Text = "";
+            // 
+            // ACPW1
+            // 
+            ACPW1.Location = new Point(365, 324);
+            ACPW1.Name = "ACPW1";
+            ACPW1.Size = new Size(118, 38);
+            ACPW1.TabIndex = 17;
+            ACPW1.Text = "";
+            // 
             // SettingsForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
             BackgroundImage = Properties.Resources.SettingsBackdrop;
-            ClientSize = new Size(500, 219);
+            ClientSize = new Size(500, 478);
+            Controls.Add(ACPW2);
+            Controls.Add(ACPW1);
+            Controls.Add(ACID2);
+            Controls.Add(ACID1);
+            Controls.Add(ACC2Label);
+            Controls.Add(ACC1Label);
+            Controls.Add(AccountDetailsLabel);
             Controls.Add(CloseImage);
             Controls.Add(GraphicsLabel);
             Controls.Add(ResolutionLabel);
@@ -184,5 +266,12 @@
         private Label ResolutionLabel;
         private Label GraphicsLabel;
         private PictureBox CloseImage;
+        private Label AccountDetailsLabel;
+        private Label ACC2Label;
+        private Label ACC1Label;
+        private RichTextBox ACID1;
+        private RichTextBox ACID2;
+        private RichTextBox ACPW2;
+        private RichTextBox ACPW1;
     }
 }

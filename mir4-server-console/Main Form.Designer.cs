@@ -49,9 +49,9 @@
             GatewayDataButton = new Button();
             WorldDataButton = new Button();
             AutoPatcherButton = new Button();
-            APIConfigButton = new Button();
-            APILogsButton = new Button();
-            APIServerButton = new Button();
+            FrontConfigButton = new Button();
+            FrontLogsButton = new Button();
+            FrontServerButton = new Button();
             SuspendLayout();
             // 
             // ChattingServerButton
@@ -231,44 +231,43 @@
             AutoPatcherButton.TabIndex = 17;
             AutoPatcherButton.Text = "AutoPatcher";
             AutoPatcherButton.UseVisualStyleBackColor = true;
-            //AutoPatcherButton.Click += AutoPatcherButton_Click;
             // 
-            // APIConfigButton
+            // FrontConfigButton
             // 
-            APIConfigButton.Location = new Point(176, 268);
-            APIConfigButton.Name = "APIConfigButton";
-            APIConfigButton.Size = new Size(75, 23);
-            APIConfigButton.TabIndex = 20;
-            APIConfigButton.Text = "Config";
-            APIConfigButton.UseVisualStyleBackColor = true;
+            FrontConfigButton.Location = new Point(176, 268);
+            FrontConfigButton.Name = "FrontConfigButton";
+            FrontConfigButton.Size = new Size(75, 23);
+            FrontConfigButton.TabIndex = 20;
+            FrontConfigButton.Text = "Config";
+            FrontConfigButton.UseVisualStyleBackColor = true;
             // 
-            // APILogsButton
+            // FrontLogsButton
             // 
-            APILogsButton.Location = new Point(95, 268);
-            APILogsButton.Name = "APILogsButton";
-            APILogsButton.Size = new Size(75, 23);
-            APILogsButton.TabIndex = 19;
-            APILogsButton.Text = "Logs";
-            APILogsButton.UseVisualStyleBackColor = true;
+            FrontLogsButton.Location = new Point(95, 268);
+            FrontLogsButton.Name = "FrontLogsButton";
+            FrontLogsButton.Size = new Size(75, 23);
+            FrontLogsButton.TabIndex = 19;
+            FrontLogsButton.Text = "Logs";
+            FrontLogsButton.UseVisualStyleBackColor = true;
             // 
-            // APIServerButton
+            // FrontServerButton
             // 
-            APIServerButton.Location = new Point(12, 257);
-            APIServerButton.Name = "APIServerButton";
-            APIServerButton.Size = new Size(77, 45);
-            APIServerButton.TabIndex = 18;
-            APIServerButton.Text = "API Server";
-            APIServerButton.UseVisualStyleBackColor = true;
-            APIServerButton.Click += APIServerButton_Click;
+            FrontServerButton.Location = new Point(12, 257);
+            FrontServerButton.Name = "FrontServerButton";
+            FrontServerButton.Size = new Size(77, 45);
+            FrontServerButton.TabIndex = 18;
+            FrontServerButton.Text = "Front Server";
+            FrontServerButton.UseVisualStyleBackColor = true;
+            FrontServerButton.Click += FrontServerButton_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(352, 402);
-            Controls.Add(APIConfigButton);
-            Controls.Add(APILogsButton);
-            Controls.Add(APIServerButton);
+            Controls.Add(FrontConfigButton);
+            Controls.Add(FrontLogsButton);
+            Controls.Add(FrontServerButton);
             Controls.Add(AutoPatcherButton);
             Controls.Add(WorldDataButton);
             Controls.Add(GatewayDataButton);
@@ -317,8 +316,8 @@
         private Button GatewayDataButton;
         private Button WorldDataButton;
         private Button AutoPatcherButton;
-        private Button APIConfigButton;
-        private Button APILogsButton;
-        private Button APIServerButton;
+        private Button FrontConfigButton;
+        private Button FrontLogsButton;
+        private Button FrontServerButton;
     }
 }

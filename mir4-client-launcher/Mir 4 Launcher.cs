@@ -3,6 +3,8 @@ using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
+using Microsoft.Web.WebView2.WinForms;
+using Microsoft.Web.WebView2.Wpf;
 
 namespace Mir_4_Launcher
 {
@@ -13,21 +15,30 @@ namespace Mir_4_Launcher
         private bool isDragging = false;
         private Point lastCursor;
         private Point lastForm;
-        private System.Windows.Forms.Timer slideshowTimer;
-        private int currentImageIndex = 0;
-        private Image[] slideshowImages = new Image[]
-        {
-            Properties.Resources.Splash,
-            Properties.Resources.Splash2,
-            Properties.Resources.Splash3
-        };
 
         public Launcher()
         {
             InitializeComponent();
-            InitializeSlideshowTimer();
             UpdateVersionLabel();
             InitializeProcessCheckTimer();
+            _ = LoadWebsite(); // Call LoadWebsite() with the await operator
+        }
+       
+        private async Task LoadWebsite()
+        {
+            // Ensure the CoreWebView2 is initialized
+            await WebView.EnsureCoreWebView2Async(null);
+
+            // Check if CoreWebView2 is available
+            if (WebView.CoreWebView2 != null)
+            {
+                // Navigate to the GIF URL directly
+                WebView.CoreWebView2.Navigate("https://media.discordapp.net/attachments/1109157390407966720/1211434812158640179/Mir4Launcher.gif?ex=65ee2f96&is=65dbba96&hm=71cf5ed13046bc5ae0ffe16eb3b687e769248fcfa3883d94b612ac9b01df5379&=");
+            }
+            else
+            {
+                MessageBox.Show("Failed to initialize CoreWebView2.");
+            }
         }
         private void InitializeProcessCheckTimer()
         {
@@ -35,26 +46,6 @@ namespace Mir_4_Launcher
             processCheckTimer.Interval = 5000;
             processCheckTimer.Tick += ProcessCheckTimer_Tick;
             processCheckTimer.Start();
-        }
-        private void InitializeSlideshowTimer()
-        {
-            slideshowTimer = new System.Windows.Forms.Timer();
-            slideshowTimer.Interval = 5000; // Change interval as needed (in milliseconds)
-            slideshowTimer.Tick += SlideshowTimer_Tick;
-            slideshowTimer.Start();
-        }
-
-        private void SlideshowTimer_Tick(object sender, EventArgs e)
-        {
-            // Change the image in the PictureBox
-            SlideshowImage.Image = slideshowImages[currentImageIndex];
-
-            // Move to the next image
-            currentImageIndex++;
-            if (currentImageIndex >= slideshowImages.Length)
-            {
-                currentImageIndex = 0; // Start from the first image if reached the end
-            }
         }
 
         private void CloseImage_Click(object sender, EventArgs e)
@@ -67,9 +58,9 @@ namespace Mir_4_Launcher
             this.WindowState = FormWindowState.Minimized;
         }
 
-        private void WEGREEDLABEL_Click(object sender, EventArgs e)
+        private void LOMCNLABEL_Click(object sender, EventArgs e)
         {
-            string link = "https://www.lomcn.net/forum/threads/mir-4-private-server-information.111906/";
+            string link = "https://www.lomcn.net/";
 
             try
             {

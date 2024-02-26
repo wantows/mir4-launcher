@@ -30,12 +30,15 @@
         {
             RZImage = new PictureBox();
             LOMCNImage = new PictureBox();
-            LOMCNIconImage = new PictureBox();
-            label1 = new Label();
+            SponsoredLabel = new Label();
             InfoCloseImage = new PictureBox();
+            SpecialThanksLabel = new Label();
+            NyylLabel = new Label();
+            Firev2Label = new Label();
+            MentalLabel = new Label();
+            GurgelLabel = new Label();
             ((System.ComponentModel.ISupportInitialize)RZImage).BeginInit();
             ((System.ComponentModel.ISupportInitialize)LOMCNImage).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)LOMCNIconImage).BeginInit();
             ((System.ComponentModel.ISupportInitialize)InfoCloseImage).BeginInit();
             SuspendLayout();
             // 
@@ -44,7 +47,7 @@
             RZImage.BackColor = Color.Transparent;
             RZImage.Dock = DockStyle.Bottom;
             RZImage.Image = Properties.Resources.RZ;
-            RZImage.Location = new Point(0, 203);
+            RZImage.Location = new Point(0, 411);
             RZImage.Name = "RZImage";
             RZImage.Size = new Size(607, 206);
             RZImage.TabIndex = 0;
@@ -55,34 +58,23 @@
             // 
             LOMCNImage.BackColor = Color.Transparent;
             LOMCNImage.Image = Properties.Resources.lomcn_logo;
-            LOMCNImage.Location = new Point(198, 87);
+            LOMCNImage.Location = new Point(206, 311);
             LOMCNImage.Name = "LOMCNImage";
             LOMCNImage.Size = new Size(200, 100);
             LOMCNImage.TabIndex = 1;
             LOMCNImage.TabStop = false;
             LOMCNImage.Click += LOMCNImage_Click;
             // 
-            // LOMCNIconImage
+            // SponsoredLabel
             // 
-            LOMCNIconImage.BackColor = Color.Transparent;
-            LOMCNIconImage.Image = Properties.Resources._3f356b3ac584bd4f6d1c7722ee28a43a;
-            LOMCNIconImage.Location = new Point(77, 75);
-            LOMCNIconImage.Name = "LOMCNIconImage";
-            LOMCNIconImage.Size = new Size(128, 128);
-            LOMCNIconImage.TabIndex = 2;
-            LOMCNIconImage.TabStop = false;
-            LOMCNIconImage.Click += LOMCNIconImage_Click;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.BackColor = Color.Transparent;
-            label1.Font = new Font("Segoe UI", 30F);
-            label1.Location = new Point(165, 9);
-            label1.Name = "label1";
-            label1.Size = new Size(267, 54);
-            label1.TabIndex = 3;
-            label1.Text = "Sponsored by";
+            SponsoredLabel.AutoSize = true;
+            SponsoredLabel.BackColor = Color.Transparent;
+            SponsoredLabel.Font = new Font("Segoe UI", 30F);
+            SponsoredLabel.Location = new Point(174, 254);
+            SponsoredLabel.Name = "SponsoredLabel";
+            SponsoredLabel.Size = new Size(267, 54);
+            SponsoredLabel.TabIndex = 3;
+            SponsoredLabel.Text = "Sponsored by";
             // 
             // InfoCloseImage
             // 
@@ -95,15 +87,74 @@
             InfoCloseImage.TabStop = false;
             InfoCloseImage.Click += InfoCloseImage_Click;
             // 
+            // SpecialThanksLabel
+            // 
+            SpecialThanksLabel.AutoSize = true;
+            SpecialThanksLabel.BackColor = Color.Transparent;
+            SpecialThanksLabel.Font = new Font("Segoe UI", 25F);
+            SpecialThanksLabel.Location = new Point(183, -2);
+            SpecialThanksLabel.Name = "SpecialThanksLabel";
+            SpecialThanksLabel.Size = new Size(238, 46);
+            SpecialThanksLabel.TabIndex = 5;
+            SpecialThanksLabel.Text = "Special Thanks";
+            // 
+            // NyylLabel
+            // 
+            NyylLabel.AutoSize = true;
+            NyylLabel.Font = new Font("Segoe UI", 15F);
+            NyylLabel.Location = new Point(274, 55);
+            NyylLabel.Name = "NyylLabel";
+            NyylLabel.Size = new Size(52, 28);
+            NyylLabel.TabIndex = 6;
+            NyylLabel.Text = "Nyyl";
+            NyylLabel.Click += NyylLabel_Click;
+            // 
+            // Firev2Label
+            // 
+            Firev2Label.AutoSize = true;
+            Firev2Label.Font = new Font("Segoe UI", 15F);
+            Firev2Label.Location = new Point(270, 105);
+            Firev2Label.Name = "Firev2Label";
+            Firev2Label.Size = new Size(65, 28);
+            Firev2Label.TabIndex = 7;
+            Firev2Label.Text = "Firev2";
+            Firev2Label.Click += Firev2Label_Click;
+            // 
+            // MentalLabel
+            // 
+            MentalLabel.AutoSize = true;
+            MentalLabel.Font = new Font("Segoe UI", 15F);
+            MentalLabel.Location = new Point(265, 155);
+            MentalLabel.Name = "MentalLabel";
+            MentalLabel.Size = new Size(77, 28);
+            MentalLabel.TabIndex = 9;
+            MentalLabel.Text = "MentaL";
+            MentalLabel.Click += MentalLabel_Click;
+            // 
+            // GurgelLabel
+            // 
+            GurgelLabel.AutoSize = true;
+            GurgelLabel.Font = new Font("Segoe UI", 15F);
+            GurgelLabel.Location = new Point(265, 205);
+            GurgelLabel.Name = "GurgelLabel";
+            GurgelLabel.Size = new Size(71, 28);
+            GurgelLabel.TabIndex = 10;
+            GurgelLabel.Text = "Gurgel";
+            GurgelLabel.Click += GurgelLabel_Click;
+            // 
             // InfoForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
-            ClientSize = new Size(607, 409);
+            ClientSize = new Size(607, 617);
+            Controls.Add(GurgelLabel);
+            Controls.Add(MentalLabel);
+            Controls.Add(Firev2Label);
+            Controls.Add(NyylLabel);
+            Controls.Add(SpecialThanksLabel);
             Controls.Add(InfoCloseImage);
-            Controls.Add(label1);
-            Controls.Add(LOMCNIconImage);
+            Controls.Add(SponsoredLabel);
             Controls.Add(LOMCNImage);
             Controls.Add(RZImage);
             ForeColor = Color.Gray;
@@ -113,7 +164,6 @@
             Text = "InfoForm";
             ((System.ComponentModel.ISupportInitialize)RZImage).EndInit();
             ((System.ComponentModel.ISupportInitialize)LOMCNImage).EndInit();
-            ((System.ComponentModel.ISupportInitialize)LOMCNIconImage).EndInit();
             ((System.ComponentModel.ISupportInitialize)InfoCloseImage).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -123,8 +173,12 @@
 
         private PictureBox RZImage;
         private PictureBox LOMCNImage;
-        private PictureBox LOMCNIconImage;
-        private Label label1;
+        private Label SponsoredLabel;
         private PictureBox InfoCloseImage;
+        private Label SpecialThanksLabel;
+        private Label NyylLabel;
+        private Label Firev2Label;
+        private Label MentalLabel;
+        private Label GurgelLabel;
     }
 }

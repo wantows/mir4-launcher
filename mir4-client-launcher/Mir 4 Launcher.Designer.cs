@@ -30,10 +30,9 @@
         {
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Launcher));
-            WEGREEDLABEL = new Label();
-            SlideshowImage = new PictureBox();
+            LOMCNLABEL = new Label();
             BoxImage = new PictureBox();
-            WeGreenCoLabel = new Label();
+            LOMCNCoLabel = new Label();
             CommunityImage = new PictureBox();
             SettingsBox = new PictureBox();
             CommunityLabel = new Label();
@@ -42,7 +41,6 @@
             CloseImage = new PictureBox();
             GameStartButton1 = new PictureBox();
             GameStartButton2 = new PictureBox();
-            SlideshowTimer = new System.Windows.Forms.Timer(components);
             ProgressBarImage = new PictureBox();
             DownloadPercentLabel = new Label();
             GBLabel = new Label();
@@ -52,7 +50,8 @@
             TimeLabel = new Label();
             InfoImage = new PictureBox();
             ProcessCheckTimer = new System.Windows.Forms.Timer(components);
-            ((System.ComponentModel.ISupportInitialize)SlideshowImage).BeginInit();
+            backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            WebView = new Microsoft.Web.WebView2.WinForms.WebView2();
             ((System.ComponentModel.ISupportInitialize)BoxImage).BeginInit();
             ((System.ComponentModel.ISupportInitialize)CommunityImage).BeginInit();
             ((System.ComponentModel.ISupportInitialize)SettingsBox).BeginInit();
@@ -62,30 +61,21 @@
             ((System.ComponentModel.ISupportInitialize)GameStartButton2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)ProgressBarImage).BeginInit();
             ((System.ComponentModel.ISupportInitialize)InfoImage).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)WebView).BeginInit();
             SuspendLayout();
             // 
-            // WEGREEDLABEL
+            // LOMCNLABEL
             // 
-            WEGREEDLABEL.AutoSize = true;
-            WEGREEDLABEL.BackColor = Color.Transparent;
-            WEGREEDLABEL.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold);
-            WEGREEDLABEL.ForeColor = Color.White;
-            WEGREEDLABEL.Location = new Point(12, 12);
-            WEGREEDLABEL.Name = "WEGREEDLABEL";
-            WEGREEDLABEL.Size = new Size(67, 15);
-            WEGREEDLABEL.TabIndex = 1;
-            WEGREEDLABEL.Text = "WEGREED";
-            WEGREEDLABEL.Click += WEGREEDLABEL_Click;
-            // 
-            // SlideshowImage
-            // 
-            SlideshowImage.BackColor = Color.Transparent;
-            SlideshowImage.Image = Properties.Resources.Splash;
-            SlideshowImage.Location = new Point(0, 40);
-            SlideshowImage.Name = "SlideshowImage";
-            SlideshowImage.Size = new Size(1026, 439);
-            SlideshowImage.TabIndex = 2;
-            SlideshowImage.TabStop = false;
+            LOMCNLABEL.AutoSize = true;
+            LOMCNLABEL.BackColor = Color.Transparent;
+            LOMCNLABEL.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold);
+            LOMCNLABEL.ForeColor = Color.White;
+            LOMCNLABEL.Location = new Point(12, 12);
+            LOMCNLABEL.Name = "LOMCNLABEL";
+            LOMCNLABEL.Size = new Size(52, 15);
+            LOMCNLABEL.TabIndex = 1;
+            LOMCNLABEL.Text = "LOMCN";
+            LOMCNLABEL.Click += LOMCNLABEL_Click;
             // 
             // BoxImage
             // 
@@ -96,17 +86,17 @@
             BoxImage.TabIndex = 3;
             BoxImage.TabStop = false;
             // 
-            // WeGreenCoLabel
+            // LOMCNCoLabel
             // 
-            WeGreenCoLabel.AutoSize = true;
-            WeGreenCoLabel.BackColor = Color.Transparent;
-            WeGreenCoLabel.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            WeGreenCoLabel.ForeColor = Color.DimGray;
-            WeGreenCoLabel.Location = new Point(416, 599);
-            WeGreenCoLabel.Name = "WeGreenCoLabel";
-            WeGreenCoLabel.Size = new Size(231, 15);
-            WeGreenCoLabel.TabIndex = 4;
-            WeGreenCoLabel.Text = "© WeGreed Co., LTD. All rights reserved.";
+            LOMCNCoLabel.AutoSize = true;
+            LOMCNCoLabel.BackColor = Color.Transparent;
+            LOMCNCoLabel.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            LOMCNCoLabel.ForeColor = Color.DimGray;
+            LOMCNCoLabel.Location = new Point(416, 599);
+            LOMCNCoLabel.Name = "LOMCNCoLabel";
+            LOMCNCoLabel.Size = new Size(219, 15);
+            LOMCNCoLabel.TabIndex = 4;
+            LOMCNCoLabel.Text = "© LOMCN Co., LTD. All rights reserved.";
             // 
             // CommunityImage
             // 
@@ -301,12 +291,24 @@
             // 
             ProcessCheckTimer.Tick += ProcessCheckTimer_Tick;
             // 
+            // WebView
+            // 
+            WebView.AllowExternalDrop = true;
+            WebView.CreationProperties = null;
+            WebView.DefaultBackgroundColor = Color.White;
+            WebView.Location = new Point(0, 40);
+            WebView.Name = "WebView";
+            WebView.Size = new Size(1026, 439);
+            WebView.TabIndex = 22;
+            WebView.ZoomFactor = 1D;
+            // 
             // Launcher
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
             ClientSize = new Size(1026, 623);
+            Controls.Add(WebView);
             Controls.Add(InfoImage);
             Controls.Add(TimeLabel);
             Controls.Add(SpeedLabel);
@@ -323,10 +325,9 @@
             Controls.Add(CommunityLabel);
             Controls.Add(SettingsBox);
             Controls.Add(CommunityImage);
-            Controls.Add(WeGreenCoLabel);
+            Controls.Add(LOMCNCoLabel);
             Controls.Add(BoxImage);
-            Controls.Add(SlideshowImage);
-            Controls.Add(WEGREEDLABEL);
+            Controls.Add(LOMCNLABEL);
             ForeColor = Color.Transparent;
             FormBorderStyle = FormBorderStyle.None;
             Icon = (Icon)resources.GetObject("$this.Icon");
@@ -335,7 +336,6 @@
             MouseDown += Form1_MouseDown;
             MouseMove += Form1_MouseMove;
             MouseUp += Form1_MouseUp;
-            ((System.ComponentModel.ISupportInitialize)SlideshowImage).EndInit();
             ((System.ComponentModel.ISupportInitialize)BoxImage).EndInit();
             ((System.ComponentModel.ISupportInitialize)CommunityImage).EndInit();
             ((System.ComponentModel.ISupportInitialize)SettingsBox).EndInit();
@@ -345,15 +345,15 @@
             ((System.ComponentModel.ISupportInitialize)GameStartButton2).EndInit();
             ((System.ComponentModel.ISupportInitialize)ProgressBarImage).EndInit();
             ((System.ComponentModel.ISupportInitialize)InfoImage).EndInit();
+            ((System.ComponentModel.ISupportInitialize)WebView).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-        private Label WEGREEDLABEL;
-        private PictureBox SlideshowImage;
+        private Label LOMCNLABEL;
         private PictureBox BoxImage;
-        private Label WeGreenCoLabel;
+        private Label LOMCNCoLabel;
         private PictureBox CommunityImage;
         private PictureBox SettingsBox;
         private Label CommunityLabel;
@@ -362,7 +362,6 @@
         private PictureBox CloseImage;
         private PictureBox GameStartButton1;
         private PictureBox GameStartButton2;
-        private System.Windows.Forms.Timer SlideshowTimer;
         private PictureBox ProgressBarImage;
         private Label DownloadPercentLabel;
         private Label GBLabel;
@@ -380,5 +379,7 @@ After:
         private Label TimeLabel;
         private PictureBox InfoImage;
         private System.Windows.Forms.Timer ProcessCheckTimer;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private Microsoft.Web.WebView2.WinForms.WebView2 WebView;
     }
 }

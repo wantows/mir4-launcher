@@ -234,3 +234,36 @@ G:\Mir4\mir4-server-console\obj\Debug\net8.0-windows\refint\Server Console.dll
 G:\Mir4\mir4-server-console\obj\Debug\net8.0-windows\Server Console.pdb
 G:\Mir4\mir4-server-console\obj\Debug\net8.0-windows\Server Console.genruntimeconfig.cache
 G:\Mir4\mir4-server-console\obj\Debug\net8.0-windows\ref\Server Console.dll
+G:\Mir4\Github Uploader\mir4-launcher\mir4-server-console\bin\Server-Launcher\Debug\net8.0-windows\WinSCP.exe
+G:\Mir4\Github Uploader\mir4-launcher\mir4-server-console\bin\Server-Launcher\Debug\net8.0-windows\Server Console.exe
+G:\Mir4\Github Uploader\mir4-launcher\mir4-server-console\bin\Server-Launcher\Debug\net8.0-windows\Server Console.deps.json
+G:\Mir4\Github Uploader\mir4-launcher\mir4-server-console\bin\Server-Launcher\Debug\net8.0-windows\Server Console.runtimeconfig.json
+G:\Mir4\Github Uploader\mir4-launcher\mir4-server-console\bin\Server-Launcher\Debug\net8.0-windows\Server Console.dll
+G:\Mir4\Github Uploader\mir4-launcher\mir4-server-console\bin\Server-Launcher\Debug\net8.0-windows\Server Console.pdb
+G:\Mir4\Github Uploader\mir4-launcher\mir4-server-console\bin\Server-Launcher\Debug\net8.0-windows\Newtonsoft.Json.dll
+G:\Mir4\Github Uploader\mir4-launcher\mir4-server-console\bin\Server-Launcher\Debug\net8.0-windows\WinSCPnet.dll
+G:\Mir4\Github Uploader\mir4-launcher\mir4-server-console\obj\Debug\net8.0-windows\Server Console.csproj.AssemblyReference.cache
+G:\Mir4\Github Uploader\mir4-launcher\mir4-server-console\obj\Debug\net8.0-windows\Server_Console.Form1.resources
+G:\Mir4\Github Uploader\mir4-launcher\mir4-server-console\obj\Debug\net8.0-windows\Server_Console.Server_Configs.Chatting.ChattingConfig.resources
+G:\Mir4\Github Uploader\mir4-launcher\mir4-server-console\obj\Debug\net8.0-windows\Server_Console.Server_Configs.Game.GameConfig.resources
+G:\Mir4\Github Uploader\mir4-launcher\mir4-server-console\obj\Debug\net8.0-windows\Server_Console.Server_Configs.Gateway.GatewayConfig.resources
+G:\Mir4\Github Uploader\mir4-launcher\mir4-server-console\obj\Debug\net8.0-windows\Server_Console.Server_Configs.World.WorldConfig.resources
+G:\Mir4\Github Uploader\mir4-launcher\mir4-server-console\obj\Debug\net8.0-windows\Server_Console.Server_Data.GameData.resources
+G:\Mir4\Github Uploader\mir4-launcher\mir4-server-console\obj\Debug\net8.0-windows\Server_Console.Server_Data.Gateway.GatewayData.resources
+G:\Mir4\Github Uploader\mir4-launcher\mir4-server-console\obj\Debug\net8.0-windows\Server_Console.Server_Data.World.WorldData.resources
+G:\Mir4\Github Uploader\mir4-launcher\mir4-server-console\obj\Debug\net8.0-windows\Server_Console.Logs.Chatting.ChattingLogs.resources
+G:\Mir4\Github Uploader\mir4-launcher\mir4-server-console\obj\Debug\net8.0-windows\Server_Console.Logs.Game.GameLogs.resources
+G:\Mir4\Github Uploader\mir4-launcher\mir4-server-console\obj\Debug\net8.0-windows\Server_Console.Logs.Gateway.GatewayLogs.resources
+G:\Mir4\Github Uploader\mir4-launcher\mir4-server-console\obj\Debug\net8.0-windows\Server_Console.Logs.World.WorldLogs.resources
+G:\Mir4\Github Uploader\mir4-launcher\mir4-server-console\obj\Debug\net8.0-windows\Server Console.csproj.GenerateResource.cache
+G:\Mir4\Github Uploader\mir4-launcher\mir4-server-console\obj\Debug\net8.0-windows\Server Console.GeneratedMSBuildEditorConfig.editorconfig
+G:\Mir4\Github Uploader\mir4-launcher\mir4-server-console\obj\Debug\net8.0-windows\Server Console.AssemblyInfoInputs.cache
+G:\Mir4\Github Uploader\mir4-launcher\mir4-server-console\obj\Debug\net8.0-windows\Server Console.AssemblyInfo.cs
+G:\Mir4\Github Uploader\mir4-launcher\mir4-server-console\obj\Debug\net8.0-windows\Server Console.csproj.CoreCompileInputs.cache
+G:\Mir4\Github Uploader\mir4-launcher\mir4-server-console\obj\Debug\net8.0-windows\Server Console.sourcelink.json
+G:\Mir4\Github Uploader\mir4-launcher\mir4-server-console\obj\Debug\net8.0-windows\Server Console.csproj.CopyComplete
+G:\Mir4\Github Uploader\mir4-launcher\mir4-server-console\obj\Debug\net8.0-windows\Server Console.dll
+G:\Mir4\Github Uploader\mir4-launcher\mir4-server-console\obj\Debug\net8.0-windows\refint\Server Console.dll
+G:\Mir4\Github Uploader\mir4-launcher\mir4-server-console\obj\Debug\net8.0-windows\Server Console.pdb
+G:\Mir4\Github Uploader\mir4-launcher\mir4-server-console\obj\Debug\net8.0-windows\Server Console.genruntimeconfig.cache
+G:\Mir4\Github Uploader\mir4-launcher\mir4-server-console\obj\Debug\net8.0-windows\ref\Server Console.dll
